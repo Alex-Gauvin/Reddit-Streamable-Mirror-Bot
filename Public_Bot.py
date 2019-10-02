@@ -2,6 +2,10 @@ import praw
 import re
 import requests as request
 
+'''
+This is not a standalone bot, it edits it's your comment with a streamable link if you reply to a comment with a youtube link with "!mirror"
+'''
+
 reddit = praw.Reddit('bot1') #pulls reddit bot account data from separate PRAW.ini file
 username = reddit.user.me().name
 print(username)
