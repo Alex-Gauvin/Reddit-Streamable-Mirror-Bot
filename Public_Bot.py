@@ -4,6 +4,7 @@ import requests as request
 
 '''
 This is not a standalone bot, it edits your comment with a streamable link if you reply to a comment with a youtube link with "!mirror"
+Regular bots get banned from subreddits so frequently that they aren't very useful
 '''
 
 reddit = praw.Reddit('bot1') #pulls reddit bot account data from separate PRAW.ini file
